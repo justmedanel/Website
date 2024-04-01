@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --font: 'Poppins', sans-serif;
+}
+body{
+    padding:0;
+    margin:0;
+    font-family: var(--font);
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+        circle,
+        rgba(238, 174, 202, 1) 0%,
+        rgba(148, 187, 233, 1) 100%
+    );
+    color: white;
+}
+#tryBtn{
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(147, 39, 180);
+    cursor: pointer;
+    font-family: var(--font);
+    color: white;
+    font-weight: 600;
+}
+
+input{
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: var(--font);
+    padding-left: 5px;
+    outline: none;
+}
+
+
+.input-form{
+    max-width: 25%;
+    filter: drop-shadow(0 0 0.75rem rgb(121, 96, 116));
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#myBtn{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+.myLabels{
+    font-size: 3em;
+}
