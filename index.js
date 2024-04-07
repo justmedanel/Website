@@ -626,14 +626,3 @@ let username = window.prompt("Enter your username");
 username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
 console.log(username); 
 */
-
-// WSCHOOLS EXERCISES
-
-document.getElementById("demo").innerHTML = "Hello World";
-
-document.getElementById("bulbon").onclick = function(){
-    document.getElementById("bulb").src = "pic_bulbon.gif";
-}
-document.getElementById("bulboff").onclick = function(){
-    document.getElementById("bulb").src = "pic_bulboff.gif";
-}
